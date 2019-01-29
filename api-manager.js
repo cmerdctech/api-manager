@@ -71,7 +71,7 @@ var moduleFunction = function(args) {
 				true
 			)
 			.replace(/this\.apiStructure\./g, '');
-		console.logDev(
+		console.log(
 			`\n\napiManager method list ${label}=========================\n\n${dump}\nEND apiManager, =========================\n\n`
 		);
 	};
